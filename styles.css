@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://wallpapers.com/images/featured/light-blue-2iuzyh711jo9bmgo.jpg);
+}
+
+/* main {
+    display: flex;
+    align-items: center;
+} */
+
+.options, .villalist, header {
+    background-color: lightblue;
+}
+
+.villalist {
+    display: block;
+    width: 90%;
+}
+
+.options {
+    display: inline-flex;
+
+}
+
+.date, .numlistings, .loadmore, .displaymode {
+    margin: 0 10px;
+
+}
+
+.villa {
+    display: inline-flex;
+    width: 80%;
+    border-color: black;
+    border-width: 3px;
+}
+
+.villa p {
+    margin: 0;
+}
+
+.villa div {
+    width: 25%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Rent - Display Villas</title>
+  </head>
+  <body>
+    <!-- <div id="app"></div> -->
+    <header>
+      <img alt="Logo" src="data:image/png;base64,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">
+      <h1>Villa Rent</h1>
+      <h2>List Villas</h2>
+    </header>
+    <main>
+        <fieldset class="options">
+            <input type="date" class="date">
+            <input type="number" class="numlistings" min="5" max="30">
+            <div class="displaymode">
+                <label for="tile-mode"><input type="radio" name="display-mode" id="tile-mode" checked> tile mode</label>
+                <label for="list-mode"><input type="radio" name="display-mode" id="list-mode"> list mode</label>
+            </div>
+            <!-- dropdown for sorting -->
+            <label> Sort by: 
+                <select>
+                    <option>Capacity</option>
+                    <option>Location</option>
+                    <option>Price</option>
+                </select>
+            </label>
+            <!-- checkboxes for filtering -->
+            <button class="loadmore">Load More</button>
+            
+        </fieldset>
+        
+
+        <div class="villalist">
+            <div class="villa">
+                <div><img src="villa2.jpg" alt="Thumbnail"></div>
+                <div class="details">
+                    <p class="location">Venice</p>
+                    <p class="price">10000</p>
+                    <p class="capacity">240</p>
+                </div>
+                <div><ul class="facilities">
+                    <p>pool</p>
+                    <p>hot tub</p>
+                    <p>kitchen</p>
+                    <p>tennis court</p>
+                    <p>dance hall</p>
+                </ul></div>
+                <div><button>Book Now</button></div>
+            </div>
+            <br>
+            <button id="showmore">Show More...</button>
+        </div>
+
+    </main>
+  </body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
